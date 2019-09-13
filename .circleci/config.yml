@@ -18,7 +18,7 @@ aliases:
         - *attach_workspace
         - add_ssh_keys:
             fingerprints:
-              - "66:80:b8:db:44:06:34:e1:f0:ac:35:b2:a0:80:98:bd"
+              - "99:b1:9e:a7:63:31:54:d9:4d:29:f3:9a:44:75:35:c9"
         - run:
             name: Install rsync
             command: |
