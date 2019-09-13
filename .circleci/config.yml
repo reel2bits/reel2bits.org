@@ -1,0 +1,50 @@
+# Python CircleCI 2.0 configuration file
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+version: 2
+
+aliases:
+  - &defaults
+    docker:
+      - image: circleci/node:10.16.3-buster-browsers
+    working_directory: ~/projects/reel2bits.org
+
+  - &attach_workspace
+      attach_workspace:
+        at: ~/projects/
+
+  - &build_and_sync_site
+      steps:
+        - checkout
+        - *attach_workspace
+        - add_ssh_keys:
+            fingerprints:
+              - "66:80:b8:db:44:06:34:e1:f0:ac:35:b2:a0:80:98:bd"
+        - run:
+            name: Install rsync
+            command: |
+              sudo apt-get update
+              sudo apt-get install -y rsync
+        - run:
+            name: Install dependencies
+            command: |
+              yarn
+        - run:
+            name: Build website
+            command: |
+              yarn build
+        - deploy:
+            name: deploy
+            command: |
+              rsync -avc -e "ssh -o StrictHostKeyChecking=no -p 22" --delete build/ reel2bits.org@cadance.licorn.eu:/
+jobs:
+  build-website:
+    <<: *defaults
+    docker:
+      - image: circleci/node:10.16.3-buster-browsers
+    <<: *build_and_sync_site
+
+workflows:
+  version: 2
+  build-docs:
+    jobs:
+      - build-website
