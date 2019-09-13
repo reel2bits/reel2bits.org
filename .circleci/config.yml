@@ -33,6 +33,7 @@ aliases:
             command: |
               yarn i18n-compile
               yarn build
+              cp -r src/assets dist/
         - deploy:
             name: deploy
             command: |
