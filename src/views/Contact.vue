@@ -10,7 +10,7 @@
         </h2>
         <p>
           <translate translate-context="Content/Contact/Paragraph"
-            >Our mail communication canal is our Matrix channel, the following
+            >Our main communication canal is our Matrix channel, the following
             channels are available:</translate
           >
         </p>

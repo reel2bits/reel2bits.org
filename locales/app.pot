@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 13:02+0200\n"
+"POT-Creation-Date: 2019-09-13 16:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,64 +22,121 @@ msgctxt "Content/Home/Header"
 msgid "A platform to share music and podcasts"
 msgstr ""
 
-#: front/src/views/Contact.vue:115
+#: front/src/views/Page.vue:36
+msgctxt "HTML/Meta/Title"
+msgid "Code of Conduct"
+msgstr ""
+
+#: front/src/views/Contact.vue:63
 msgctxt "Content/Contact/Header"
 msgid "Contact"
 msgstr ""
 
-#: front/src/views/Contact.vue:4
+#: front/src/views/Contact.vue:6
 msgctxt "Content/Contact/Header"
 msgid "Contact informations"
 msgstr ""
 
-#: front/src/views/Contact.vue:74
-msgctxt "Content/Contact/Table.Header"
-msgid "Email address"
+#: front/src/views/Home.vue:51
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Every user profile has Atom Feeds for all tracks, or a particular\n"
+"          album, making sharing easy."
 msgstr ""
 
-#: front/src/views/Contact.vue:55
+#: front/src/views/PageNotFound.vue:15
+msgctxt "Content/Error/Link"
+msgid "Go back to home page"
+msgstr ""
+
+#: front/src/views/Contact.vue:33
 msgctxt "Content/Contact/Paragraph"
-msgid "If you need to get in touch with core contributors of the project, use the contact information below."
+msgid ""
+"If you need to get in touch with core contributors of the project,\n"
+"          use the contact information below."
 msgstr ""
 
-#: front/src/views/Contact.vue:79
-msgctxt "Content/Contact/Table.Header"
-msgid "Languages"
+#: front/src/views/Contact.vue:75
+msgctxt "Content/Contact/Table/Header"
+msgid "Main community and dev canal"
 msgstr ""
 
-#: front/src/views/Contact.vue:23
-msgctxt "Content/Contact/Table.Header"
-msgid "link"
+#: front/src/components/Navigation.vue:62
+msgctxt "Navigation/Aria.Label"
+msgid "Main navigation"
 msgstr ""
 
-#: front/src/views/Contact.vue:18 src/views/Contact.vue:64
-msgctxt "Content/Contact/Table.Header"
-msgid "Name"
+#: front/src/views/Home.vue:91 src/views/Home.vue:93
+msgctxt "Content/Home/Slide/Caption"
+msgid "Main page with timelines"
 msgstr ""
 
-#: front/src/views/Contact.vue:50
+#: front/src/views/Contact.vue:28
 msgctxt "Content/Contact/Header"
 msgid "Other requests and messages"
 msgstr ""
 
-#: front/src/views/Contact.vue:9
+#: front/src/views/Contact.vue:11
 msgctxt "Content/Contact/Paragraph"
-msgid "Our mail communication canal is our Matrix channel, the following channels are available:"
+msgid ""
+"Our main communication canal is our Matrix channel, the following\n"
+"          channels are available:"
 msgstr ""
 
-#: front/src/views/Contact.vue:89
-msgctxt "Content/Contact/Table.Header"
+#: front/src/views/PageNotFound.vue:4
+msgctxt "Content/Error/Header"
+msgid "Page not found"
+msgstr ""
+
+#: front/src/views/Contact.vue:84
+msgctxt "Content/Contact/Table/Header"
 msgid "Project maintainer"
 msgstr ""
 
-#: front/src/views/Contact.vue:28
-msgctxt "Content/Contact/Table.Header"
-msgid "Purpose"
+#: front/src/views/Home.vue:57
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Recently, ActivityPub has started to be implemented, leading a way\n"
+"          to reach even more easily people in the Fediverse."
 msgstr ""
 
-#: front/src/views/Contact.vue:69
-msgctxt "Content/Contact/Table.Header"
-msgid "Roles"
+#: front/src/views/Home.vue:39
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits is an opensource web application dedicated to artists and\n"
+"          anyone making music, or even podcasts."
+msgstr ""
+
+#: front/src/views/Home.vue:45
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits permits to upload your tracks, make albums, and even uses\n"
+"          an album as an Atom Podcast feed."
+msgstr ""
+
+#: front/src/components/Navigation.vue:63
+msgctxt "Navigation/Link.Title"
+msgid "Return to homepage"
+msgstr ""
+
+#: front/src/views/Home.vue:95 src/views/Home.vue:97
+msgctxt "Content/Home/Slide/Caption"
+msgid "User profile with albums"
+msgstr ""
+
+#: front/src/views/Home.vue:99 src/views/Home.vue:101
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of a single track"
+msgstr ""
+
+#: front/src/views/Home.vue:103 src/views/Home.vue:105
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of an album"
+msgstr ""
+
+#: front/src/views/PageNotFound.vue:9
+msgctxt "Content/Error/Paragraph"
+msgid "We're sorry, the page your requested doesn't exist."
 msgstr ""
 
 #: front/src/PageMixin.vue:53
