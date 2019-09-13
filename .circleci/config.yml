@@ -31,11 +31,12 @@ aliases:
         - run:
             name: Build website
             command: |
+              yarn i18n-compile
               yarn build
         - deploy:
             name: deploy
             command: |
-              rsync -avc -e "ssh -o StrictHostKeyChecking=no -p 22" --delete build/ reel2bits.org@cadance.licorn.eu:/
+              rsync -avc -e "ssh -o StrictHostKeyChecking=no -p 22" --delete dist/ reel2bits.org@cadance.licorn.eu:/
 jobs:
   build-website:
     <<: *defaults
