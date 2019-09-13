@@ -75,7 +75,7 @@ workflows:
       - test-build
       - build-website:
           requires:
-            test-build
+            - test-build
           filters:
             branches:
               only: master
