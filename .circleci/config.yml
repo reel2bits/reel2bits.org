@@ -50,3 +50,6 @@ workflows:
   build-docs:
     jobs:
       - build-website
+          filters:
+            branches:
+              only: master
