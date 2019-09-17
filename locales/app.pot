@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 16:38+0200\n"
+"POT-Creation-Date: 2019-09-17 21:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,11 @@ msgctxt "Content/Contact/Header"
 msgid "Contact informations"
 msgstr ""
 
+#: front/src/components/Navigation.vue:27
+msgctxt "Navigation/Link.Title"
+msgid "Documentation"
+msgstr ""
+
 #: front/src/views/Home.vue:51
 msgctxt "Content/Home/Paragraph"
 msgid ""
@@ -56,12 +61,27 @@ msgid ""
 "          use the contact information below."
 msgstr ""
 
-#: front/src/views/Contact.vue:75
+#: front/src/views/Contact.vue:110
+msgctxt "Content/Contact/Table/Header"
+msgid "Language"
+msgstr ""
+
+#: front/src/views/Contact.vue:78
+msgctxt "Content/Contact/Table/Header"
+msgid "Link"
+msgstr ""
+
+#: front/src/views/Contact.vue:106
+msgctxt "Content/Contact/Table/Header"
+msgid "Mail"
+msgstr ""
+
+#: front/src/views/Contact.vue:89
 msgctxt "Content/Contact/Table/Header"
 msgid "Main community and dev canal"
 msgstr ""
 
-#: front/src/components/Navigation.vue:62
+#: front/src/components/Navigation.vue:70
 msgctxt "Navigation/Aria.Label"
 msgid "Main navigation"
 msgstr ""
@@ -69,6 +89,11 @@ msgstr ""
 #: front/src/views/Home.vue:91 src/views/Home.vue:93
 msgctxt "Content/Home/Slide/Caption"
 msgid "Main page with timelines"
+msgstr ""
+
+#: front/src/views/Contact.vue:74 src/views/Contact.vue:98
+msgctxt "Content/Contact/Table/Header"
+msgid "Name"
 msgstr ""
 
 #: front/src/views/Contact.vue:28
@@ -88,9 +113,14 @@ msgctxt "Content/Error/Header"
 msgid "Page not found"
 msgstr ""
 
-#: front/src/views/Contact.vue:84
+#: front/src/views/Contact.vue:116
 msgctxt "Content/Contact/Table/Header"
 msgid "Project maintainer"
+msgstr ""
+
+#: front/src/views/Contact.vue:82
+msgctxt "Content/Contact/Table/Header"
+msgid "Purpose"
 msgstr ""
 
 #: front/src/views/Home.vue:57
@@ -114,9 +144,24 @@ msgid ""
 "          an album as an Atom Podcast feed."
 msgstr ""
 
-#: front/src/components/Navigation.vue:63
+#: front/src/components/Navigation.vue:6
+msgctxt "Navigation/Link.Title"
+msgid "reel2bits project"
+msgstr ""
+
+#: front/src/components/Navigation.vue:71
 msgctxt "Navigation/Link.Title"
 msgid "Return to homepage"
+msgstr ""
+
+#: front/src/views/Contact.vue:102
+msgctxt "Content/Contact/Table/Header"
+msgid "Roles"
+msgstr ""
+
+#: front/src/components/Navigation.vue:20
+msgctxt "Navigation/Link.Title"
+msgid "Source Code"
 msgstr ""
 
 #: front/src/views/Home.vue:95 src/views/Home.vue:97

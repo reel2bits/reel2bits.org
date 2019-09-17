@@ -14,7 +14,7 @@
             channels are available:</translate
           >
         </p>
-        <b-table-lite :items="channels">
+        <b-table-lite :items="channels" :fields="channelsFields">
           <template v-slot:cell(link)="link">
             <a :href="link.value" target="_blank">{{ link.value }}</a>
           </template>
@@ -37,7 +37,7 @@
           </translate>
         </p>
 
-        <b-table :items="contacts">
+        <b-table :items="contacts" :fields="contactsFields">
           <template v-slot:cell(mail)="mail">
             <a :href="mailto(mail.value)" target="_blank">{{ mail.value }}</a>
           </template>
@@ -68,6 +68,20 @@ export default {
   },
   data() {
     return {
+      channelsFields: [
+        {
+          key: "name",
+          label: this.$pgettext("Content/Contact/Table/Header", "Name")
+        },
+        {
+          key: "link",
+          label: this.$pgettext("Content/Contact/Table/Header", "Link")
+        },
+        {
+          key: "purpose",
+          label: this.$pgettext("Content/Contact/Table/Header", "Purpose")
+        }
+      ],
       channels: [
         {
           name: "#reel2bits:otter.sh",
@@ -76,6 +90,24 @@ export default {
             "Content/Contact/Table/Header",
             "Main community and dev canal"
           )
+        }
+      ],
+      contactsFields: [
+        {
+          key: "name",
+          label: this.$pgettext("Content/Contact/Table/Header", "Name")
+        },
+        {
+          key: "roles",
+          label: this.$pgettext("Content/Contact/Table/Header", "Roles")
+        },
+        {
+          key: "mail",
+          label: this.$pgettext("Content/Contact/Table/Header", "Mail")
+        },
+        {
+          key: "lang",
+          label: this.$pgettext("Content/Contact/Table/Header", "Language")
         }
       ],
       contacts: [

@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 # Script imported from: https://dev.funkwhale.audio/funkwhale/funkwhale/
-locales=$(tail -n +2 src/locales.js | sed -e 's/export default //' | jq '.locales[].code' | xargs echo)
+locales=$(tail -n +2 src/locales.js | sed -e 's/module.exports = //' | jq '.locales[].code' | xargs echo)
 locales_dir="locales"
 sources=$(find src -name '*.vue' -o -name '*.html' 2> /dev/null)
 js_sources=$(find src -name '*.vue' -o -name '*.js')

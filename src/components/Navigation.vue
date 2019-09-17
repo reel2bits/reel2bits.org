@@ -5,7 +5,9 @@
         <b-navbar-brand :to="{ name: 'home' }"
           ><MainLogo />
           <h3 class="text-body mx-3 d-inline">
-            reel2bits project
+            <translate translate-context="Navigation/Link.Title">
+              reel2bits project
+            </translate>
           </h3></b-navbar-brand
         >
 
@@ -17,12 +19,16 @@
             <b-nav-item
               href="https://github.com/rhaamo/reel2bits"
               target="_blank"
-              >source code</b-nav-item
+              ><translate translate-context="Navigation/Link.Title"
+                >Source Code</translate
+              ></b-nav-item
             >
             <b-nav-item
               href="https://docs-develop.reel2bits.org"
               target="_blank"
-              >documentation</b-nav-item
+              ><translate translate-context="Navigation/Link.Title"
+                >Documentation</translate
+              ></b-nav-item
             >
           </b-navbar-nav>
 

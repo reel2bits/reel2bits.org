@@ -8,82 +8,189 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-13 13:02+0200\n"
-"PO-Revision-Date: 2019-09-13 13:02+0200\n"
+"POT-Creation-Date: 2019-09-17 21:20+0200\n"
+"PO-Revision-Date: 2019-09-17 21:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: fr\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: front/src/PageMixin.vue:20 src/PageMixin.vue:23
 msgctxt "Content/Home/Header"
 msgid "A platform to share music and podcasts"
-msgstr ""
+msgstr "Une plateforme pour partager de la musique et des podcasts"
 
-#: front/src/views/Contact.vue:115
+#: front/src/views/Page.vue:36
+msgctxt "HTML/Meta/Title"
+msgid "Code of Conduct"
+msgstr "Code de conduite"
+
+#: front/src/views/Contact.vue:63
 msgctxt "Content/Contact/Header"
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
-#: front/src/views/Contact.vue:4
+#: front/src/views/Contact.vue:6
 msgctxt "Content/Contact/Header"
 msgid "Contact informations"
-msgstr ""
+msgstr "Informations de contact"
 
-#: front/src/views/Contact.vue:74
-msgctxt "Content/Contact/Table.Header"
-msgid "Email address"
-msgstr ""
+#: front/src/components/Navigation.vue:27
+msgctxt "Navigation/Link.Title"
+msgid "Documentation"
+msgstr "Documentation"
 
-#: front/src/views/Contact.vue:55
+#: front/src/views/Home.vue:51
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Every user profile has Atom Feeds for all tracks, or a particular\n"
+"          album, making sharing easy."
+msgstr "Chaque profil utilisateur à un flux Atom pour toutes les pistes, ou un album particulier, rendant le partage simplifié."
+
+#: front/src/views/PageNotFound.vue:15
+msgctxt "Content/Error/Link"
+msgid "Go back to home page"
+msgstr "Retourner à la page d’accueil"
+
+#: front/src/views/Contact.vue:33
 msgctxt "Content/Contact/Paragraph"
-msgid "If you need to get in touch with core contributors of the project, use the contact information below."
+msgid ""
+"If you need to get in touch with core contributors of the project,\n"
+"          use the contact information below."
 msgstr ""
+"Si vous avez besoin de contacter un contributeur majeur du projet,\n"
+"utilisez les informations contact ci-dessous."
 
-#: front/src/views/Contact.vue:79
-msgctxt "Content/Contact/Table.Header"
-msgid "Languages"
-msgstr ""
+#: front/src/views/Contact.vue:110
+msgctxt "Content/Contact/Table/Header"
+msgid "Language"
+msgstr "Langage"
 
-#: front/src/views/Contact.vue:23
-msgctxt "Content/Contact/Table.Header"
-msgid "link"
-msgstr ""
+#: front/src/views/Contact.vue:78
+msgctxt "Content/Contact/Table/Header"
+msgid "Link"
+msgstr "Lien"
 
-#: front/src/views/Contact.vue:18 src/views/Contact.vue:64
-msgctxt "Content/Contact/Table.Header"
-msgid "Name"
-msgstr ""
-
-#: front/src/views/Contact.vue:50
-msgctxt "Content/Contact/Header"
-msgid "Other requests and messages"
-msgstr ""
-
-#: front/src/views/Contact.vue:9
-msgctxt "Content/Contact/Paragraph"
-msgid "Our mail communication canal is our Matrix channel, the following channels are available:"
-msgstr ""
+#: front/src/views/Contact.vue:106
+msgctxt "Content/Contact/Table/Header"
+msgid "Mail"
+msgstr "Mail"
 
 #: front/src/views/Contact.vue:89
-msgctxt "Content/Contact/Table.Header"
-msgid "Project maintainer"
-msgstr ""
+msgctxt "Content/Contact/Table/Header"
+msgid "Main community and dev canal"
+msgstr "Canal principal communautaire et de développement"
+
+#: front/src/components/Navigation.vue:70
+msgctxt "Navigation/Aria.Label"
+msgid "Main navigation"
+msgstr "Navigation principale"
+
+#: front/src/views/Home.vue:91 src/views/Home.vue:93
+msgctxt "Content/Home/Slide/Caption"
+msgid "Main page with timelines"
+msgstr "Page principale avec les timelines"
+
+#: front/src/views/Contact.vue:74 src/views/Contact.vue:98
+msgctxt "Content/Contact/Table/Header"
+msgid "Name"
+msgstr "Nom"
 
 #: front/src/views/Contact.vue:28
-msgctxt "Content/Contact/Table.Header"
-msgid "Purpose"
-msgstr ""
+msgctxt "Content/Contact/Header"
+msgid "Other requests and messages"
+msgstr "Autre requêtes et messages"
 
-#: front/src/views/Contact.vue:69
-msgctxt "Content/Contact/Table.Header"
-msgid "Roles"
+#: front/src/views/Contact.vue:11
+msgctxt "Content/Contact/Paragraph"
+msgid ""
+"Our main communication canal is our Matrix channel, the following\n"
+"          channels are available:"
 msgstr ""
+"Notre canal de communication principal est notre salon Matrix, les canaux suivants\n"
+" sont disponibles :"
+
+#: front/src/views/PageNotFound.vue:4
+msgctxt "Content/Error/Header"
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: front/src/views/Contact.vue:116
+msgctxt "Content/Contact/Table/Header"
+msgid "Project maintainer"
+msgstr "Mainteneur du projet"
+
+#: front/src/views/Contact.vue:82
+msgctxt "Content/Contact/Table/Header"
+msgid "Purpose"
+msgstr "Usage"
+
+#: front/src/views/Home.vue:57
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Recently, ActivityPub has started to be implemented, leading a way\n"
+"          to reach even more easily people in the Fediverse."
+msgstr "Récemment, ActivityPub a été commencé a être implémenté, permettant d’atteindre encore plus facilement les gens dans le Fediverse."
+
+#: front/src/views/Home.vue:39
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits is an opensource web application dedicated to artists and\n"
+"          anyone making music, or even podcasts."
+msgstr "reel2bits est une application web open source dédiée aux artistes et n’importe qui faisant de la musique, ou même des podcasts."
+
+#: front/src/views/Home.vue:45
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits permits to upload your tracks, make albums, and even uses\n"
+"          an album as an Atom Podcast feed."
+msgstr "reel2bits permet d’uploaded vos pistes, créer des albums, voir même utiliser un album comme un flux Atom de Podcast."
+
+#: front/src/components/Navigation.vue:6
+msgctxt "Navigation/Link.Title"
+msgid "reel2bits project"
+msgstr "projet reel2bits"
+
+#: front/src/components/Navigation.vue:71
+msgctxt "Navigation/Link.Title"
+msgid "Return to homepage"
+msgstr "Retourner a la page d’accueil"
+
+#: front/src/views/Contact.vue:102
+msgctxt "Content/Contact/Table/Header"
+msgid "Roles"
+msgstr "Rôles"
+
+#: front/src/components/Navigation.vue:20
+msgctxt "Navigation/Link.Title"
+msgid "Source Code"
+msgstr "Code Source"
+
+#: front/src/views/Home.vue:95 src/views/Home.vue:97
+msgctxt "Content/Home/Slide/Caption"
+msgid "User profile with albums"
+msgstr "Profil utilisateur avec des albums"
+
+#: front/src/views/Home.vue:99 src/views/Home.vue:101
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of a single track"
+msgstr "Vue d’une piste seule"
+
+#: front/src/views/Home.vue:103 src/views/Home.vue:105
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of an album"
+msgstr "Vue d’un album"
+
+#: front/src/views/PageNotFound.vue:9
+msgctxt "Content/Error/Paragraph"
+msgid "We're sorry, the page your requested doesn't exist."
+msgstr "Nous sommes désolés, la page demandée n’existe pas."
 
 #: front/src/PageMixin.vue:53
 msgctxt "HTML/Meta/Title"
 msgid "Your free and decentralized audio and podcasts platform"
-msgstr ""
+msgstr "Votre plateforme audio et podcasts décentralisée et libre"
