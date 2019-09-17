@@ -1,0 +1,193 @@
+# English translations for reel2bits.org package.
+# Copyright (C) 2019 THE reel2bits.org'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the reel2bits.org package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reel2bits.org 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-17 21:20+0200\n"
+"PO-Revision-Date: 2019-09-13 13:02+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: front/src/PageMixin.vue:20 src/PageMixin.vue:23
+msgctxt "Content/Home/Header"
+msgid "A platform to share music and podcasts"
+msgstr "A platform to share music and podcasts"
+
+#: front/src/views/Page.vue:36
+msgctxt "HTML/Meta/Title"
+msgid "Code of Conduct"
+msgstr ""
+
+#: front/src/views/Contact.vue:63
+msgctxt "Content/Contact/Header"
+msgid "Contact"
+msgstr "Contact"
+
+#: front/src/views/Contact.vue:6
+msgctxt "Content/Contact/Header"
+msgid "Contact informations"
+msgstr "Contact informations"
+
+#: front/src/components/Navigation.vue:27
+msgctxt "Navigation/Link.Title"
+msgid "Documentation"
+msgstr ""
+
+#: front/src/views/Home.vue:51
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Every user profile has Atom Feeds for all tracks, or a particular\n"
+"          album, making sharing easy."
+msgstr ""
+
+#: front/src/views/PageNotFound.vue:15
+msgctxt "Content/Error/Link"
+msgid "Go back to home page"
+msgstr ""
+
+#: front/src/views/Contact.vue:33
+#, fuzzy
+msgctxt "Content/Contact/Paragraph"
+msgid ""
+"If you need to get in touch with core contributors of the project,\n"
+"          use the contact information below."
+msgstr "If you need to get in touch with core contributors of the project, use the contact information below."
+
+#: front/src/views/Contact.vue:110
+msgctxt "Content/Contact/Table/Header"
+msgid "Language"
+msgstr ""
+
+#: front/src/views/Contact.vue:78
+msgctxt "Content/Contact/Table/Header"
+msgid "Link"
+msgstr ""
+
+#: front/src/views/Contact.vue:106
+msgctxt "Content/Contact/Table/Header"
+msgid "Mail"
+msgstr ""
+
+#: front/src/views/Contact.vue:89
+msgctxt "Content/Contact/Table/Header"
+msgid "Main community and dev canal"
+msgstr ""
+
+#: front/src/components/Navigation.vue:70
+msgctxt "Navigation/Aria.Label"
+msgid "Main navigation"
+msgstr ""
+
+#: front/src/views/Home.vue:91 src/views/Home.vue:93
+msgctxt "Content/Home/Slide/Caption"
+msgid "Main page with timelines"
+msgstr ""
+
+#: front/src/views/Contact.vue:74 src/views/Contact.vue:98
+msgctxt "Content/Contact/Table/Header"
+msgid "Name"
+msgstr ""
+
+#: front/src/views/Contact.vue:28
+msgctxt "Content/Contact/Header"
+msgid "Other requests and messages"
+msgstr "Other requests and messages"
+
+#: front/src/views/Contact.vue:11
+#, fuzzy
+msgctxt "Content/Contact/Paragraph"
+msgid ""
+"Our main communication canal is our Matrix channel, the following\n"
+"          channels are available:"
+msgstr "Our mail communication canal is our Matrix channel, the following channels are available:"
+
+#: front/src/views/PageNotFound.vue:4
+msgctxt "Content/Error/Header"
+msgid "Page not found"
+msgstr ""
+
+#: front/src/views/Contact.vue:116
+#, fuzzy
+msgctxt "Content/Contact/Table/Header"
+msgid "Project maintainer"
+msgstr "Project maintainer"
+
+#: front/src/views/Contact.vue:82
+msgctxt "Content/Contact/Table/Header"
+msgid "Purpose"
+msgstr ""
+
+#: front/src/views/Home.vue:57
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Recently, ActivityPub has started to be implemented, leading a way\n"
+"          to reach even more easily people in the Fediverse."
+msgstr ""
+
+#: front/src/views/Home.vue:39
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits is an opensource web application dedicated to artists and\n"
+"          anyone making music, or even podcasts."
+msgstr ""
+
+#: front/src/views/Home.vue:45
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits permits to upload your tracks, make albums, and even uses\n"
+"          an album as an Atom Podcast feed."
+msgstr ""
+
+#: front/src/components/Navigation.vue:6
+msgctxt "Navigation/Link.Title"
+msgid "reel2bits project"
+msgstr ""
+
+#: front/src/components/Navigation.vue:71
+msgctxt "Navigation/Link.Title"
+msgid "Return to homepage"
+msgstr ""
+
+#: front/src/views/Contact.vue:102
+msgctxt "Content/Contact/Table/Header"
+msgid "Roles"
+msgstr ""
+
+#: front/src/components/Navigation.vue:20
+msgctxt "Navigation/Link.Title"
+msgid "Source Code"
+msgstr ""
+
+#: front/src/views/Home.vue:95 src/views/Home.vue:97
+msgctxt "Content/Home/Slide/Caption"
+msgid "User profile with albums"
+msgstr ""
+
+#: front/src/views/Home.vue:99 src/views/Home.vue:101
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of a single track"
+msgstr ""
+
+#: front/src/views/Home.vue:103 src/views/Home.vue:105
+msgctxt "Content/Home/Slide/Caption"
+msgid "View of an album"
+msgstr ""
+
+#: front/src/views/PageNotFound.vue:9
+msgctxt "Content/Error/Paragraph"
+msgid "We're sorry, the page your requested doesn't exist."
+msgstr ""
+
+#: front/src/PageMixin.vue:53
+msgctxt "HTML/Meta/Title"
+msgid "Your free and decentralized audio and podcasts platform"
+msgstr "Your free and decentralized audio and podcasts platform"
