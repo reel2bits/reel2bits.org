@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 21:20+0200\n"
-"PO-Revision-Date: 2019-09-13 13:02+0200\n"
+"POT-Creation-Date: 2019-09-18 11:19+0200\n"
+"PO-Revision-Date: 2019-09-18 11:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -25,7 +25,7 @@ msgstr "A platform to share music and podcasts"
 #: front/src/views/Page.vue:36
 msgctxt "HTML/Meta/Title"
 msgid "Code of Conduct"
-msgstr ""
+msgstr "Code of Conduct"
 
 #: front/src/views/Contact.vue:63
 msgctxt "Content/Contact/Header"
@@ -37,10 +37,10 @@ msgctxt "Content/Contact/Header"
 msgid "Contact informations"
 msgstr "Contact informations"
 
-#: front/src/components/Navigation.vue:27
+#: front/src/components/Navigation.vue:28
 msgctxt "Navigation/Link.Title"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: front/src/views/Home.vue:51
 msgctxt "Content/Home/Paragraph"
@@ -48,54 +48,57 @@ msgid ""
 "Every user profile has Atom Feeds for all tracks, or a particular\n"
 "          album, making sharing easy."
 msgstr ""
+"Every user profile has Atom Feeds for all tracks, or a particular\n"
+"          album, making sharing easy."
 
 #: front/src/views/PageNotFound.vue:15
 msgctxt "Content/Error/Link"
 msgid "Go back to home page"
-msgstr ""
+msgstr "Go back to home page"
 
 #: front/src/views/Contact.vue:33
-#, fuzzy
 msgctxt "Content/Contact/Paragraph"
 msgid ""
 "If you need to get in touch with core contributors of the project,\n"
 "          use the contact information below."
-msgstr "If you need to get in touch with core contributors of the project, use the contact information below."
+msgstr ""
+"If you need to get in touch with core contributors of the project,\n"
+"          use the contact information below."
 
 #: front/src/views/Contact.vue:110
 msgctxt "Content/Contact/Table/Header"
 msgid "Language"
-msgstr ""
+msgstr "Language"
 
 #: front/src/views/Contact.vue:78
 msgctxt "Content/Contact/Table/Header"
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: front/src/views/Contact.vue:106
 msgctxt "Content/Contact/Table/Header"
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #: front/src/views/Contact.vue:89
 msgctxt "Content/Contact/Table/Header"
 msgid "Main community and dev canal"
-msgstr ""
+msgstr "Main community and dev canal"
 
-#: front/src/components/Navigation.vue:70
+#: front/src/components/Navigation.vue:68
 msgctxt "Navigation/Aria.Label"
 msgid "Main navigation"
-msgstr ""
+msgstr "Main navigation"
 
 #: front/src/views/Home.vue:91 src/views/Home.vue:93
 msgctxt "Content/Home/Slide/Caption"
 msgid "Main page with timelines"
-msgstr ""
+msgstr "Main page with timelines"
 
 #: front/src/views/Contact.vue:74 src/views/Contact.vue:98
 msgctxt "Content/Contact/Table/Header"
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: front/src/views/Contact.vue:28
 msgctxt "Content/Contact/Header"
@@ -103,20 +106,20 @@ msgid "Other requests and messages"
 msgstr "Other requests and messages"
 
 #: front/src/views/Contact.vue:11
-#, fuzzy
 msgctxt "Content/Contact/Paragraph"
 msgid ""
 "Our main communication canal is our Matrix channel, the following\n"
 "          channels are available:"
-msgstr "Our mail communication canal is our Matrix channel, the following channels are available:"
+msgstr ""
+"Our main communication canal is our Matrix channel, the following\n"
+"          channels are available:"
 
 #: front/src/views/PageNotFound.vue:4
 msgctxt "Content/Error/Header"
 msgid "Page not found"
-msgstr ""
+msgstr "Page not found"
 
 #: front/src/views/Contact.vue:116
-#, fuzzy
 msgctxt "Content/Contact/Table/Header"
 msgid "Project maintainer"
 msgstr "Project maintainer"
@@ -124,7 +127,7 @@ msgstr "Project maintainer"
 #: front/src/views/Contact.vue:82
 msgctxt "Content/Contact/Table/Header"
 msgid "Purpose"
-msgstr ""
+msgstr "Purpose"
 
 #: front/src/views/Home.vue:57
 msgctxt "Content/Home/Paragraph"
@@ -132,6 +135,8 @@ msgid ""
 "Recently, ActivityPub has started to be implemented, leading a way\n"
 "          to reach even more easily people in the Fediverse."
 msgstr ""
+"Recently, ActivityPub has started to be implemented, leading a way\n"
+"          to reach even more easily people in the Fediverse."
 
 #: front/src/views/Home.vue:39
 msgctxt "Content/Home/Paragraph"
@@ -139,6 +144,8 @@ msgid ""
 "reel2bits is an opensource web application dedicated to artists and\n"
 "          anyone making music, or even podcasts."
 msgstr ""
+"reel2bits is an opensource web application dedicated to artists and\n"
+"          anyone making music, or even podcasts."
 
 #: front/src/views/Home.vue:45
 msgctxt "Content/Home/Paragraph"
@@ -146,46 +153,48 @@ msgid ""
 "reel2bits permits to upload your tracks, make albums, and even uses\n"
 "          an album as an Atom Podcast feed."
 msgstr ""
+"reel2bits permits to upload your tracks, make albums, and even uses\n"
+"          an album as an Atom Podcast feed."
 
-#: front/src/components/Navigation.vue:6
+#: front/src/components/Navigation.vue:7
 msgctxt "Navigation/Link.Title"
 msgid "reel2bits project"
-msgstr ""
+msgstr "reel2bits project"
 
-#: front/src/components/Navigation.vue:71
+#: front/src/components/Navigation.vue:69
 msgctxt "Navigation/Link.Title"
 msgid "Return to homepage"
-msgstr ""
+msgstr "Return to homepage"
 
 #: front/src/views/Contact.vue:102
 msgctxt "Content/Contact/Table/Header"
 msgid "Roles"
-msgstr ""
+msgstr "Roles"
 
-#: front/src/components/Navigation.vue:20
+#: front/src/components/Navigation.vue:21
 msgctxt "Navigation/Link.Title"
 msgid "Source Code"
-msgstr ""
+msgstr "Source Code"
 
 #: front/src/views/Home.vue:95 src/views/Home.vue:97
 msgctxt "Content/Home/Slide/Caption"
 msgid "User profile with albums"
-msgstr ""
+msgstr "User profile with albums"
 
 #: front/src/views/Home.vue:99 src/views/Home.vue:101
 msgctxt "Content/Home/Slide/Caption"
 msgid "View of a single track"
-msgstr ""
+msgstr "View of a single track"
 
 #: front/src/views/Home.vue:103 src/views/Home.vue:105
 msgctxt "Content/Home/Slide/Caption"
 msgid "View of an album"
-msgstr ""
+msgstr "View of an album"
 
 #: front/src/views/PageNotFound.vue:9
 msgctxt "Content/Error/Paragraph"
 msgid "We're sorry, the page your requested doesn't exist."
-msgstr ""
+msgstr "We're sorry, the page your requested doesn't exist."
 
 #: front/src/PageMixin.vue:53
 msgctxt "HTML/Meta/Title"

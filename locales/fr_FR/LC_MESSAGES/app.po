@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-17 21:20+0200\n"
+"POT-Creation-Date: 2019-09-18 11:19+0200\n"
 "PO-Revision-Date: 2019-09-17 21:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -39,7 +39,7 @@ msgctxt "Content/Contact/Header"
 msgid "Contact informations"
 msgstr "Informations de contact"
 
-#: front/src/components/Navigation.vue:27
+#: front/src/components/Navigation.vue:28
 msgctxt "Navigation/Link.Title"
 msgid "Documentation"
 msgstr "Documentation"
@@ -85,7 +85,7 @@ msgctxt "Content/Contact/Table/Header"
 msgid "Main community and dev canal"
 msgstr "Canal principal communautaire et de développement"
 
-#: front/src/components/Navigation.vue:70
+#: front/src/components/Navigation.vue:68
 msgctxt "Navigation/Aria.Label"
 msgid "Main navigation"
 msgstr "Navigation principale"
@@ -150,12 +150,12 @@ msgid ""
 "          an album as an Atom Podcast feed."
 msgstr "reel2bits permet d’uploaded vos pistes, créer des albums, voir même utiliser un album comme un flux Atom de Podcast."
 
-#: front/src/components/Navigation.vue:6
+#: front/src/components/Navigation.vue:7
 msgctxt "Navigation/Link.Title"
 msgid "reel2bits project"
 msgstr "projet reel2bits"
 
-#: front/src/components/Navigation.vue:71
+#: front/src/components/Navigation.vue:69
 msgctxt "Navigation/Link.Title"
 msgid "Return to homepage"
 msgstr "Retourner a la page d’accueil"
@@ -165,7 +165,7 @@ msgctxt "Content/Contact/Table/Header"
 msgid "Roles"
 msgstr "Rôles"
 
-#: front/src/components/Navigation.vue:20
+#: front/src/components/Navigation.vue:21
 msgctxt "Navigation/Link.Title"
 msgid "Source Code"
 msgstr "Code Source"
