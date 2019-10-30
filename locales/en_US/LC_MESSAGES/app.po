@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-18 11:19+0200\n"
+"POT-Creation-Date: 2019-10-30 13:25+0100\n"
 "PO-Revision-Date: 2019-09-18 11:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -43,10 +43,11 @@ msgid "Documentation"
 msgstr "Documentation"
 
 #: front/src/views/Home.vue:51
+#, fuzzy
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Every user profile has Atom Feeds for all tracks, or a particular\n"
-"          album, making sharing easy."
+"Every user profile has Atom feeds for all tracks and single\n"
+"          albums, making sharing easier."
 msgstr ""
 "Every user profile has Atom Feeds for all tracks, or a particular\n"
 "          album, making sharing easy."
@@ -130,31 +131,34 @@ msgid "Purpose"
 msgstr "Purpose"
 
 #: front/src/views/Home.vue:57
+#, fuzzy
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Recently, ActivityPub has started to be implemented, leading a way\n"
-"          to reach even more easily people in the Fediverse."
+"Recently, we started working on ActivityPub implementation, creating\n"
+"          a way to easily reach even more people in the Fediverse."
 msgstr ""
 "Recently, ActivityPub has started to be implemented, leading a way\n"
 "          to reach even more easily people in the Fediverse."
-
-#: front/src/views/Home.vue:39
-msgctxt "Content/Home/Paragraph"
-msgid ""
-"reel2bits is an opensource web application dedicated to artists and\n"
-"          anyone making music, or even podcasts."
-msgstr ""
-"reel2bits is an opensource web application dedicated to artists and\n"
-"          anyone making music, or even podcasts."
 
 #: front/src/views/Home.vue:45
+#, fuzzy
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"reel2bits permits to upload your tracks, make albums, and even uses\n"
-"          an album as an Atom Podcast feed."
+"reel2bits allows you to upload your tracks, albums, and even create\n"
+"          Atom Podcast feed from an album."
 msgstr ""
 "reel2bits permits to upload your tracks, make albums, and even uses\n"
 "          an album as an Atom Podcast feed."
+
+#: front/src/views/Home.vue:39
+#, fuzzy
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits is an open source web application dedicated to artists,\n"
+"          music makers and podcast authors."
+msgstr ""
+"reel2bits is an opensource web application dedicated to artists and\n"
+"          anyone making music, or even podcasts."
 
 #: front/src/components/Navigation.vue:7
 msgctxt "Navigation/Link.Title"
