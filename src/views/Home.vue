@@ -38,26 +38,26 @@
         <hr />
         <p>
           <translate translate-context="Content/Home/Paragraph">
-            reel2bits is an opensource web application dedicated to artists and
-            anyone making music, or even podcasts.
+            reel2bits is an open source web application dedicated to artists,
+            music makers and podcast authors.
           </translate>
         </p>
         <p>
           <translate translate-context="Content/Home/Paragraph">
-            reel2bits permits to upload your tracks, make albums, and even uses
-            an album as an Atom Podcast feed.
+            reel2bits allows you to upload your tracks, albums, and even create
+            Atom Podcast feed from an album.
           </translate>
         </p>
         <p>
           <translate translate-context="Content/Home/Paragraph">
-            Every user profile has Atom Feeds for all tracks, or a particular
-            album, making sharing easy.
+            Every user profile has Atom feeds for all tracks and single
+            albums, making sharing easier.
           </translate>
         </p>
         <p>
           <translate translate-context="Content/Home/Paragraph">
-            Recently, ActivityPub has started to be implemented, leading a way
-            to reach even more easily people in the Fediverse.
+            Recently, we started working on ActivityPub implementation, creating
+            a way to easily reach even more people in the Fediverse.
           </translate>
         </p>
       </div>
