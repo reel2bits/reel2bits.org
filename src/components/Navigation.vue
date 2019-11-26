@@ -29,7 +29,8 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item :to="{ name: 'home' }"
+            <b-nav-item
+              :to="{ name: 'home', params: { locale: $language.current } }"
               ><translate translate-context="Navigation/Link.Title"
                 >Home</translate
               ></b-nav-item
@@ -53,7 +54,8 @@
                 >Source Code</translate
               ></b-nav-item
             >
-            <b-nav-item :to="{ name: 'contact' }"
+            <b-nav-item
+              :to="{ name: 'contact', params: { locale: $language.current } }"
               ><translate translate-context="Navigation/Link.Title"
                 >Contact</translate
               ></b-nav-item

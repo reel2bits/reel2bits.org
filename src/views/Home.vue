@@ -150,7 +150,7 @@
           <div class="col-md-4 text-center mt-4">
             <p style="min-height: 3em">
               <translate translate-context="Content/Home/Paragraph">
-                Want to install reel2bits on your hosting? Check the
+                Want to install reel2bits on your server? Check the
                 documentation
               </translate>
             </p>
@@ -200,11 +200,6 @@
         >
         or by <a href="mailto:dashie@otter.sh">email</a>.
       </h2>
-    </div>
-    <div class="container-fluid bg-dark text-center py-3 my-0">
-      <p class="text-white my-0 py-0" v-translate translate-context="Footer">
-        © Copyright 2016-2019, reel2bits maintainers and contributors.
-      </p>
     </div>
   </div>
 </template>

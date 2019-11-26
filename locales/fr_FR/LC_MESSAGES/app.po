@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-26 21:01+0100\n"
+"POT-Creation-Date: 2019-11-26 21:15+0100\n"
 "PO-Revision-Date: 2019-11-26 21:08+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.2.4\n"
 
-#: front/src/views/Home.vue:204
+#: front/src/App.vue:5
 msgctxt "Footer"
 msgid "© Copyright 2016-2019, reel2bits maintainers and contributors."
 msgstr "© Copyright 2016-2019, mainteneurs et contributeurs reel2bits."
@@ -29,12 +29,12 @@ msgctxt "Content/Home/Header"
 msgid "A platform to share music and podcasts"
 msgstr "Une plateforme pour partager de la musique et des podcasts"
 
-#: front/src/views/Home.vue:241
+#: front/src/views/Home.vue:236
 msgctxt "Content/Home/Slide/Caption"
 msgid "Album"
 msgstr "Album"
 
-#: front/src/views/Home.vue:236 src/views/Home.vue:238
+#: front/src/views/Home.vue:231 src/views/Home.vue:233
 msgctxt "Content/Home/Slide/Caption"
 msgid "Albums"
 msgstr "Albums"
@@ -58,7 +58,7 @@ msgctxt "Content/Contact/Header"
 msgid "Contact"
 msgstr "Contact"
 
-#: front/src/components/Navigation.vue:56
+#: front/src/components/Navigation.vue:58
 msgctxt "Navigation/Link.Title"
 msgid "Contact"
 msgstr "Contact"
@@ -73,12 +73,12 @@ msgctxt "Content/Home/Button/Call to action"
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: front/src/components/Navigation.vue:44
+#: front/src/components/Navigation.vue:45
 msgctxt "Navigation/Link.Title"
 msgid "Demo"
 msgstr "Démo"
 
-#: front/src/components/Navigation.vue:39
+#: front/src/components/Navigation.vue:40
 msgctxt "Navigation/Link.Title"
 msgid "Documentation"
 msgstr "Documentation"
@@ -123,7 +123,7 @@ msgstr ""
 "      <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">canal Matrix</a>\n"
 "      ou par <a href=\"mailto:dashie@otter.sh\">email</a>."
 
-#: front/src/components/Navigation.vue:32
+#: front/src/components/Navigation.vue:33
 msgctxt "Navigation/Link.Title"
 msgid "Home"
 msgstr "Accueil"
@@ -286,25 +286,26 @@ msgctxt "Content/Home/Title/Tagline"
 msgid "Share your sounds with the fediverse"
 msgstr "Partagez vos musiques avec le fediverse"
 
-#: front/src/components/Navigation.vue:51
+#: front/src/components/Navigation.vue:52
 msgctxt "Navigation/Link.Title"
 msgid "Source Code"
 msgstr "Code Source"
 
-#: front/src/views/Home.vue:235
+#: front/src/views/Home.vue:230
 msgctxt "Content/Home/Slide/Caption"
 msgid "Timeline"
 msgstr "Flux"
 
-#: front/src/views/Home.vue:240
+#: front/src/views/Home.vue:235
 msgctxt "Content/Home/Slide/Caption"
 msgid "Track"
 msgstr "Piste"
 
 #: front/src/views/Home.vue:151
+#, fuzzy
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Want to install reel2bits on your hosting? Check the\n"
+"Want to install reel2bits on your server? Check the\n"
 "              documentation"
 msgstr "Vous voulez installer reel2bits sur votre serveur ? Dirigez-vous vers la documentation"
 
