@@ -10,14 +10,18 @@
               class="mt-5 mb-4"
             />
             <h1 class="text-center text-white display-3 font-weight-bold">
-              <translate translate-context="Content/Home/Title/Tagline">Share your sounds with the fediverse</translate>
+              <translate translate-context="Content/Home/Title/Tagline"
+                >Share your sounds with the fediverse</translate
+              >
             </h1>
             <a
               class="btn btn-secondary btn-lg mt-4 mb-5"
               href="#contribute"
               role="button"
-              >
-              <translate translate-context="Content/Home/Button/Call to action">Contribute</translate></a
+            >
+              <translate translate-context="Content/Home/Button/Call to action"
+                >Contribute</translate
+              ></a
             >
           </div>
         </div>
@@ -45,8 +49,11 @@
                   >Source Code</translate
                 ></b-nav-item
               >
-              <b-nav-item href="#Contact"><translate translate-context="Navigation/Link.Title"
-                  >Contact</translate></b-nav-item>
+              <b-nav-item href="#Contact"
+                ><translate translate-context="Navigation/Link.Title"
+                  >Contact</translate
+                ></b-nav-item
+              >
             </b-navbar-nav>
             <b-navbar-nav class="ml-auto">
               <LanguageSwitcher />
@@ -161,7 +168,9 @@
         class="btn btn-secondary btn-lg"
         href="https://demo.reel2bits.org/"
         role="button"
-        ><translate translate-context="Content/Home/Button/Call to action">See for yourself</translate></a
+        ><translate translate-context="Content/Home/Button/Call to action"
+          >See for yourself</translate
+        ></a
       >
     </div>
     <div class="container py-5" id="contribute">
@@ -204,7 +213,8 @@
           <div class="col-md-4 text-center mt-4">
             <p style="min-height: 3em">
               <translate translate-context="Content/Home/Paragraph">
-                Want to install Reel2Bits on your hosting? Check the documentation
+                Want to install Reel2Bits on your hosting? Check the
+                documentation
               </translate>
             </p>
             <a
@@ -212,7 +222,9 @@
               href="https://docs-develop.reel2bits.org/installation/index.html"
               role="button"
               style="line-height: 60px; font-size: 1.5em"
-              ><translate translate-context="Content/Home/Button">Installation Guides</translate></a
+              ><translate translate-context="Content/Home/Button"
+                >Installation Guides</translate
+              ></a
             >
           </div>
           <div class="col-md-4 text-center mt-4">
