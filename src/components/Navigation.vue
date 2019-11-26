@@ -70,7 +70,6 @@
 
 <script>
 import LanguageSwitcher from "./LanguageSwitcher";
-import MainLogo from "./MainLogo";
 
 export default {
   components: {
