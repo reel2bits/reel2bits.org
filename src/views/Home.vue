@@ -15,7 +15,7 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              reel2Bits is an open source project that lets you upload your
+              reel2bits is an open source project that lets you upload your
               music, podcasts or other sounds, organize it into albums, and
               follow other users to see what they share.
             </translate>
@@ -34,10 +34,10 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              Each reel2Bits instance is a part of a biger network called the
+              Each reel2bits instance is a part of a biger network called the
               Fediverse. It means that users from differnt instances can connect
               with each other, and even the users of other activitypub enabled
-              platforms, like Mastodon or Pleroma can interact with reel2Bits
+              platforms, like Mastodon or Pleroma can interact with reel2bits
               users.
             </translate>
           </p>
@@ -53,13 +53,11 @@
               It’s opensource
             </translate>
           </h2>
-          <p>
-            <!-- translate translate-context="Content/Home/Paragraph" -->
-            reel2Bits is an open source project, which means anybody can use,
+          <p v-translate translate-context="Content/Home/Paragraph">
+            reel2bits is an open source project, which means anybody can use,
             modify or tweak it however they want. Ready to dig through the code?
             Check out our
             <a href="https://github.com/reel2bits/reel2bits">GitHub page</a>!
-            <!-- /translate -->
           </p>
         </div>
       </div>
@@ -126,10 +124,10 @@
           </h2>
           <p>
             <!-- translate translate-context="Content/Home/Paragraph" -->
-            reel2Bits came a long way to the point it’s in now.<br />
-            We are still working to make reel2Bits nice and smooth in every
+            reel2bits came a long way to the point it’s in now.<br />
+            We are still working to make reel2bits nice and smooth in every
             aspect, and with your help we can make it a lot faster.<br />
-            reel2Bits is written in Python, Flask and VueJS.<br />
+            reel2bits is written in Python, Flask and VueJS.<br />
             Feel like contributing?<br />
             Check out the
             <a href="https://github.com/rhaamo/reel2bits">GitHub page</a> and
@@ -137,7 +135,7 @@
             >.<br />
             Have questions? Ask them on the
             <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
-              >reel2Bits matrix channel</a
+              >reel2bits matrix channel</a
             >, or email them to the
             <a href="mailto:dashie@otter.sh">project maintener</a>.
             <!-- /translation -->
@@ -154,7 +152,7 @@
           <div class="col-md-4 text-center mt-4">
             <p style="min-height: 3em">
               <translate translate-context="Content/Home/Paragraph">
-                Want to install reel2Bits on your hosting? Check the
+                Want to install reel2bits on your hosting? Check the
                 documentation
               </translate>
             </p>

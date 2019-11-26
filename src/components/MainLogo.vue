@@ -8,7 +8,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>Reel2Bits</title>
+    <title>reel2bits</title>
     <desc>Main Logo</desc>
     <g
       id="Symbols"
