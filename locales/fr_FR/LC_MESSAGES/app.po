@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-26 20:46+0100\n"
-"PO-Revision-Date: 2019-11-26 20:50+0100\n"
+"POT-Creation-Date: 2019-11-26 21:01+0100\n"
+"PO-Revision-Date: 2019-11-26 21:08+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr_FR\n"
@@ -19,20 +19,34 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.2.4\n"
 
+#: front/src/views/Home.vue:204
+msgctxt "Footer"
+msgid "© Copyright 2016-2019, reel2bits maintainers and contributors."
+msgstr "© Copyright 2016-2019, mainteneurs et contributeurs reel2bits."
+
 #: front/src/PageMixin.vue:20 src/PageMixin.vue:23
 msgctxt "Content/Home/Header"
 msgid "A platform to share music and podcasts"
 msgstr "Une plateforme pour partager de la musique et des podcasts"
 
-#: front/src/views/Home.vue:245
+#: front/src/views/Home.vue:241
 msgctxt "Content/Home/Slide/Caption"
 msgid "Album"
 msgstr "Album"
 
-#: front/src/views/Home.vue:240 src/views/Home.vue:242
+#: front/src/views/Home.vue:236 src/views/Home.vue:238
 msgctxt "Content/Home/Slide/Caption"
 msgid "Albums"
 msgstr "Albums"
+
+#: front/src/views/Home.vue:179
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Check the package\n"
+"              <a href=\"https://github.com/YunoHost-Apps/reel2bits_ynh\">GitHub page</a>"
+msgstr ""
+"Allez voir le package\n"
+"              <a href=\"https://github.com/YunoHost-Apps/reel2bits_ynh\">page GitHub</a>"
 
 #: front/src/views/Page.vue:36
 msgctxt "HTML/Meta/Title"
@@ -72,10 +86,10 @@ msgstr "Documentation"
 #: front/src/views/Home.vue:35
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Each reel2Bits instance is a part of a biger network called the\n"
+"Each reel2bits instance is a part of a biger network called the\n"
 "            Fediverse. It means that users from differnt instances can connect\n"
 "            with each other, and even the users of other activitypub enabled\n"
-"            platforms, like Mastodon or Pleroma can interact with reel2Bits\n"
+"            platforms, like Mastodon or Pleroma can interact with reel2bits\n"
 "            users."
 msgstr ""
 "Chaque instance de reel2bits est une part d’un réseau plus grand appelle le\n"
@@ -83,7 +97,7 @@ msgstr ""
 "avec les autres, et même les utilisateurs de plateformes connectés via activitypub,\n"
 "tel que Mastodon ou Pleroma peuvent intérragir avec les utilisateurs de reel2bits."
 
-#: front/src/views/Home.vue:150
+#: front/src/views/Home.vue:146
 msgctxt "Content/Home/Title"
 msgid "Get it"
 msgstr "L’obtenir"
@@ -93,10 +107,21 @@ msgctxt "Content/Error/Link"
 msgid "Go back to home page"
 msgstr "Retourner à la page d’accueil"
 
-#: front/src/views/Home.vue:172
+#: front/src/views/Home.vue:168
 msgctxt "Content/Home/Paragraph"
 msgid "Have a YunoHost? Install it from the package"
 msgstr "Vous avez un YunoHost? Installez le depuis le package"
+
+#: front/src/views/Home.vue:191
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Have questions? Ask them in\n"
+"      <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">matrix channel</a>\n"
+"      or by <a href=\"mailto:dashie@otter.sh\">email</a>."
+msgstr ""
+"Vous avez une question ? Posez les sur le\n"
+"      <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">canal Matrix</a>\n"
+"      ou par <a href=\"mailto:dashie@otter.sh\">email</a>."
 
 #: front/src/components/Navigation.vue:32
 msgctxt "Navigation/Link.Title"
@@ -112,12 +137,12 @@ msgstr ""
 "Si vous avez besoin de contacter un contributeur majeur du projet,\n"
 "utilisez les informations contact ci-dessous."
 
-#: front/src/views/Home.vue:165
+#: front/src/views/Home.vue:161
 msgctxt "Content/Home/Button"
 msgid "Installation Guides"
 msgstr "Guides d’installation"
 
-#: front/src/views/Home.vue:68
+#: front/src/views/Home.vue:66
 msgctxt "Content/Home/Title"
 msgid "It's simple"
 msgstr "C’est simple"
@@ -125,9 +150,9 @@ msgstr "C’est simple"
 #: front/src/views/Home.vue:11
 msgctxt "Content/Home/Title"
 msgid "It’s all about the sound"
-msgstr ""
+msgstr "C'est tout à propos de la musique"
 
-#: front/src/views/Home.vue:122
+#: front/src/views/Home.vue:120
 msgctxt "Content/Home/Title"
 msgid "It’s currently under construction"
 msgstr "C’est actuellement en cours de développement"
@@ -196,20 +221,62 @@ msgctxt "Content/Contact/Table/Header"
 msgid "Purpose"
 msgstr "Usage"
 
+#: front/src/views/Home.vue:124
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits came a long way to the point it’s in now.<br/>\n"
+"          We are still working to make reel2bits nice and smooth in every\n"
+"          aspect, and with your help we can make it a lot faster.<br/>\n"
+"          reel2bits is written in Python, Flask and VueJS.<br/>\n"
+"          Feel like contributing?<br/>\n"
+"          Check out the\n"
+"          <a href=\"https://github.com/rhaamo/reel2bits\">GitHub page</a> and\n"
+"          <a href=\"https://docs-develop.reel2bits.org/\">documentation</a>.<br/>\n"
+"          Have questions? Ask them on the\n"
+"          <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">reel2bits matrix channel</a>, or email them to the\n"
+"          <a href=\"mailto:dashie@otter.sh\">project maintener</a>."
+msgstr ""
+"reel2bits a fait un long voyage jusqu'au point ou il est maintenant.<br/>\n"
+"          Nous travaillons toujours à améliorer reel2bits sur tous les\n"
+"          aspects, et avec votre aide nous pourrions aller plus vite.<br/>\n"
+"          reel2bits est écrit en Python, Flask et VueJS.<br/>\n"
+"          Vous-vous sentez de contribuer ?<br/>\n"
+"          Allez voir la\n"
+"          <a href=\"https://github.com/rhaamo/reel2bits\">page GitHub</a> et la\n"
+"          <a href=\"https://docs-develop.reel2bits.org/\">documentation</a>.<br/>\n"
+"          Des questions ? Posez les sur le\n"
+"          <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">salon Matrix de reel2bits</a>, ou par email au\n"
+"          <a href=\"mailto:dashie@otter.sh\">mainteneur du projet</a>."
+
 #: front/src/views/Home.vue:16
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"reel2Bits is an open source project that lets you upload your\n"
+"reel2bits is an open source project that lets you upload your\n"
 "            music, podcasts or other sounds, organize it into albums, and\n"
 "            follow other users to see what they share."
 msgstr ""
+"reel2bits est un projet opensource vous permettant d'uploader\n"
+"votre musique, podcasts ou créations sonores, les organiser en albums, et\n"
+"suivre d'autres utilisateurs pour voir ce qu'ils partagent."
+
+#: front/src/views/Home.vue:55
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"reel2bits is an open source project, which means anybody can use,\n"
+"          modify or tweak it however they want. Ready to dig through the code?\n"
+"          Check out our\n"
+"          <a href=\"https://github.com/reel2bits/reel2bits\">GitHub page</a>!"
+msgstr ""
+"reel2bits est un projet opensource, ce qui veut dire que tout le monde peut l'utiliser,\n"
+"le modifier ou le personaliser comme ils veulent. Prêt a plonger dans le code ?\n"
+"Allez voir la <a href=\"https://github.com/reel2bits/reel2bits\">page GitHub</a> !"
 
 #: front/src/views/Contact.vue:102
 msgctxt "Content/Contact/Table/Header"
 msgid "Roles"
 msgstr "Rôles"
 
-#: front/src/views/Home.vue:108
+#: front/src/views/Home.vue:106
 msgctxt "Content/Home/Button/Call to action"
 msgid "See for yourself"
 msgstr "Regardez par vous-même"
@@ -224,20 +291,20 @@ msgctxt "Navigation/Link.Title"
 msgid "Source Code"
 msgstr "Code Source"
 
-#: front/src/views/Home.vue:239
+#: front/src/views/Home.vue:235
 msgctxt "Content/Home/Slide/Caption"
 msgid "Timeline"
 msgstr "Flux"
 
-#: front/src/views/Home.vue:244
+#: front/src/views/Home.vue:240
 msgctxt "Content/Home/Slide/Caption"
 msgid "Track"
 msgstr "Piste"
 
-#: front/src/views/Home.vue:155
+#: front/src/views/Home.vue:151
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Want to install reel2Bits on your hosting? Check the\n"
+"Want to install reel2bits on your hosting? Check the\n"
 "              documentation"
 msgstr "Vous voulez installer reel2bits sur votre serveur ? Dirigez-vous vers la documentation"
 

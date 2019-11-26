@@ -122,8 +122,7 @@
               It’s currently under construction
             </translate>
           </h2>
-          <p>
-            <!-- translate translate-context="Content/Home/Paragraph" -->
+          <p v-translate translate-context="Content/Home/Paragraph">
             reel2bits came a long way to the point it’s in now.<br />
             We are still working to make reel2bits nice and smooth in every
             aspect, and with your help we can make it a lot faster.<br />
@@ -138,7 +137,6 @@
               >reel2bits matrix channel</a
             >, or email them to the
             <a href="mailto:dashie@otter.sh">project maintener</a>.
-            <!-- /translation -->
           </p>
         </div>
       </div>
@@ -179,13 +177,11 @@
               ><img src="../assets/home/yuno-install.png"
             /></a>
             <p class="mt-2">
-              <small>
-                <!-- translate translate-context="Content/Home/Paragraph" -->
+              <small v-translate translate-context="Content/Home/Paragraph">
                 Check the package
                 <a href="https://github.com/YunoHost-Apps/reel2bits_ynh"
                   >GitHub page</a
                 >
-                <!-- /translation -->
               </small>
             </p>
           </div>
@@ -193,18 +189,20 @@
       </div>
     </div>
     <div class="container py-5 my-5" id="Contact">
-      <h2 class="text-center my-5">
-        <!-- translate translate-context="Content/Home/Paragraph" -->
+      <h2
+        class="text-center my-5"
+        v-translate
+        translate-context="Content/Home/Paragraph"
+      >
         Have questions? Ask them in
         <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
           >matrix channel</a
         >
         or by <a href="mailto:dashie@otter.sh">email</a>.
-        <!-- /translation -->
       </h2>
     </div>
     <div class="container-fluid bg-dark text-center py-3 my-0">
-      <p class="text-white my-0 py-0">
+      <p class="text-white my-0 py-0" v-translate translate-context="Footer">
         © Copyright 2016-2019, reel2bits maintainers and contributors.
       </p>
     </div>
