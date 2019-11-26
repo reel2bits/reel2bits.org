@@ -3,6 +3,8 @@
     <b-dropdown-item
       v-for="(language, key) in $language.available"
       :key="key"
-      :value="key">{{ language }}</b-dropdown-item>
+      :value="key"
+      >{{ language }}</b-dropdown-item
+    >
   </b-dropdown>
 </template>

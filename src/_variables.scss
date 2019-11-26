@@ -51,6 +51,11 @@ $input-btn-padding-x: 1rem;
 $input-btn-padding-y: .62rem;
 $input-btn-padding-y-sm: .11rem;
 
+//$btn-padding-y-lg:            .5em;
+//$btn-padding-x-lg:            2em;
+//$btn-font-size-lg:            2.2em;
+
+
 $input-border-color: $shade-50;
 $card-border-color:  $shade-25;
 
@@ -75,7 +80,5 @@ $container-max-widths: (
 );
 $grid-gutter-width: 24px;*/
 
+$enable-responsive-font-sizes: true;
 
-$btn-padding-y-lg:            .5em;
-$btn-padding-x-lg:            2em;
-$btn-font-size-lg:            2.2em;
