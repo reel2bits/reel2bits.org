@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 13:25+0100\n"
-"PO-Revision-Date: 2019-10-30 13:28+0100\n"
+"POT-Creation-Date: 2019-11-26 20:46+0100\n"
+"PO-Revision-Date: 2019-11-26 20:50+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr_FR\n"
@@ -24,6 +24,16 @@ msgctxt "Content/Home/Header"
 msgid "A platform to share music and podcasts"
 msgstr "Une plateforme pour partager de la musique et des podcasts"
 
+#: front/src/views/Home.vue:245
+msgctxt "Content/Home/Slide/Caption"
+msgid "Album"
+msgstr "Album"
+
+#: front/src/views/Home.vue:240 src/views/Home.vue:242
+msgctxt "Content/Home/Slide/Caption"
+msgid "Albums"
+msgstr "Albums"
+
 #: front/src/views/Page.vue:36
 msgctxt "HTML/Meta/Title"
 msgid "Code of Conduct"
@@ -34,27 +44,64 @@ msgctxt "Content/Contact/Header"
 msgid "Contact"
 msgstr "Contact"
 
+#: front/src/components/Navigation.vue:56
+msgctxt "Navigation/Link.Title"
+msgid "Contact"
+msgstr "Contact"
+
 #: front/src/views/Contact.vue:6
 msgctxt "Content/Contact/Header"
 msgid "Contact informations"
 msgstr "Informations de contact"
 
-#: front/src/components/Navigation.vue:28
+#: front/src/components/Navigation.vue:20
+msgctxt "Content/Home/Button/Call to action"
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: front/src/components/Navigation.vue:44
+msgctxt "Navigation/Link.Title"
+msgid "Demo"
+msgstr "Démo"
+
+#: front/src/components/Navigation.vue:39
 msgctxt "Navigation/Link.Title"
 msgid "Documentation"
 msgstr "Documentation"
 
-#: front/src/views/Home.vue:51
+#: front/src/views/Home.vue:35
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Every user profile has Atom feeds for all tracks and single\n"
-"          albums, making sharing easier."
-msgstr "Chaque profil utilisateur à un flux Atom pour toutes les pistes, ou un album particulier, rendant le partage simplifié."
+"Each reel2Bits instance is a part of a biger network called the\n"
+"            Fediverse. It means that users from differnt instances can connect\n"
+"            with each other, and even the users of other activitypub enabled\n"
+"            platforms, like Mastodon or Pleroma can interact with reel2Bits\n"
+"            users."
+msgstr ""
+"Chaque instance de reel2bits est une part d’un réseau plus grand appelle le\n"
+"Fediverse. Cela veut dire que tout utilisateur d’une instance différente peut se connecter\n"
+"avec les autres, et même les utilisateurs de plateformes connectés via activitypub,\n"
+"tel que Mastodon ou Pleroma peuvent intérragir avec les utilisateurs de reel2bits."
+
+#: front/src/views/Home.vue:150
+msgctxt "Content/Home/Title"
+msgid "Get it"
+msgstr "L’obtenir"
 
 #: front/src/views/PageNotFound.vue:15
 msgctxt "Content/Error/Link"
 msgid "Go back to home page"
 msgstr "Retourner à la page d’accueil"
+
+#: front/src/views/Home.vue:172
+msgctxt "Content/Home/Paragraph"
+msgid "Have a YunoHost? Install it from the package"
+msgstr "Vous avez un YunoHost? Installez le depuis le package"
+
+#: front/src/components/Navigation.vue:32
+msgctxt "Navigation/Link.Title"
+msgid "Home"
+msgstr "Accueil"
 
 #: front/src/views/Contact.vue:33
 msgctxt "Content/Contact/Paragraph"
@@ -64,6 +111,36 @@ msgid ""
 msgstr ""
 "Si vous avez besoin de contacter un contributeur majeur du projet,\n"
 "utilisez les informations contact ci-dessous."
+
+#: front/src/views/Home.vue:165
+msgctxt "Content/Home/Button"
+msgid "Installation Guides"
+msgstr "Guides d’installation"
+
+#: front/src/views/Home.vue:68
+msgctxt "Content/Home/Title"
+msgid "It's simple"
+msgstr "C’est simple"
+
+#: front/src/views/Home.vue:11
+msgctxt "Content/Home/Title"
+msgid "It’s all about the sound"
+msgstr ""
+
+#: front/src/views/Home.vue:122
+msgctxt "Content/Home/Title"
+msgid "It’s currently under construction"
+msgstr "C’est actuellement en cours de développement"
+
+#: front/src/views/Home.vue:30
+msgctxt "Content/Home/Title"
+msgid "It’s huge!"
+msgstr "C’est énorme !"
+
+#: front/src/views/Home.vue:51
+msgctxt "Content/Home/Title"
+msgid "It’s opensource"
+msgstr "C’est opensource"
 
 #: front/src/views/Contact.vue:110
 msgctxt "Content/Contact/Table/Header"
@@ -84,16 +161,6 @@ msgstr "Mail"
 msgctxt "Content/Contact/Table/Header"
 msgid "Main community and dev canal"
 msgstr "Canal principal communautaire et de développement"
-
-#: front/src/components/Navigation.vue:68
-msgctxt "Navigation/Aria.Label"
-msgid "Main navigation"
-msgstr "Navigation principale"
-
-#: front/src/views/Home.vue:91 src/views/Home.vue:93
-msgctxt "Content/Home/Slide/Caption"
-msgid "Main page with timelines"
-msgstr "Page principale avec les timelines"
 
 #: front/src/views/Contact.vue:74 src/views/Contact.vue:98
 msgctxt "Content/Contact/Table/Header"
@@ -129,61 +196,50 @@ msgctxt "Content/Contact/Table/Header"
 msgid "Purpose"
 msgstr "Usage"
 
-#: front/src/views/Home.vue:57
+#: front/src/views/Home.vue:16
 msgctxt "Content/Home/Paragraph"
 msgid ""
-"Recently, we started working on ActivityPub implementation, creating\n"
-"          a way to easily reach even more people in the Fediverse."
-msgstr "Récemment, ActivityPub a été commencé a être implémenté, permettant d’atteindre encore plus facilement les gens dans le Fediverse."
-
-#: front/src/views/Home.vue:45
-msgctxt "Content/Home/Paragraph"
-msgid ""
-"reel2bits allows you to upload your tracks, albums, and even create\n"
-"          Atom Podcast feed from an album."
-msgstr "reel2bits permet d’uploaded vos pistes, créer des albums, voir même utiliser un album comme un flux Atom de Podcast."
-
-#: front/src/views/Home.vue:39
-msgctxt "Content/Home/Paragraph"
-msgid ""
-"reel2bits is an open source web application dedicated to artists,\n"
-"          music makers and podcast authors."
-msgstr "reel2bits est une application web open source dédiée aux artistes et n’importe qui faisant de la musique, ou même des podcasts."
-
-#: front/src/components/Navigation.vue:7
-msgctxt "Navigation/Link.Title"
-msgid "reel2bits project"
-msgstr "projet reel2bits"
-
-#: front/src/components/Navigation.vue:69
-msgctxt "Navigation/Link.Title"
-msgid "Return to homepage"
-msgstr "Retourner a la page d’accueil"
+"reel2Bits is an open source project that lets you upload your\n"
+"            music, podcasts or other sounds, organize it into albums, and\n"
+"            follow other users to see what they share."
+msgstr ""
 
 #: front/src/views/Contact.vue:102
 msgctxt "Content/Contact/Table/Header"
 msgid "Roles"
 msgstr "Rôles"
 
-#: front/src/components/Navigation.vue:21
+#: front/src/views/Home.vue:108
+msgctxt "Content/Home/Button/Call to action"
+msgid "See for yourself"
+msgstr "Regardez par vous-même"
+
+#: front/src/components/Navigation.vue:11
+msgctxt "Content/Home/Title/Tagline"
+msgid "Share your sounds with the fediverse"
+msgstr "Partagez vos musiques avec le fediverse"
+
+#: front/src/components/Navigation.vue:51
 msgctxt "Navigation/Link.Title"
 msgid "Source Code"
 msgstr "Code Source"
 
-#: front/src/views/Home.vue:95 src/views/Home.vue:97
+#: front/src/views/Home.vue:239
 msgctxt "Content/Home/Slide/Caption"
-msgid "User profile with albums"
-msgstr "Profil utilisateur avec des albums"
+msgid "Timeline"
+msgstr "Flux"
 
-#: front/src/views/Home.vue:99 src/views/Home.vue:101
+#: front/src/views/Home.vue:244
 msgctxt "Content/Home/Slide/Caption"
-msgid "View of a single track"
-msgstr "Vue d’une piste seule"
+msgid "Track"
+msgstr "Piste"
 
-#: front/src/views/Home.vue:103 src/views/Home.vue:105
-msgctxt "Content/Home/Slide/Caption"
-msgid "View of an album"
-msgstr "Vue d’un album"
+#: front/src/views/Home.vue:155
+msgctxt "Content/Home/Paragraph"
+msgid ""
+"Want to install reel2Bits on your hosting? Check the\n"
+"              documentation"
+msgstr "Vous voulez installer reel2bits sur votre serveur ? Dirigez-vous vers la documentation"
 
 #: front/src/views/PageNotFound.vue:9
 msgctxt "Content/Error/Paragraph"
