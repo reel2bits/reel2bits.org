@@ -8,8 +8,8 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>navbar / logged in</title>
-    <desc>Created with Sketch.</desc>
+    <title>reel2bits</title>
+    <desc>Main Logo</desc>
     <g
       id="Symbols"
       stroke="none"
@@ -17,7 +17,7 @@
       fill="none"
       fill-rule="evenodd"
     >
-      <g id="navbar-/-logged-in" fill-rule="nonzero">
+      <g id="reel2bits-main-logo" fill-rule="nonzero">
         <g id="Logo">
           <polygon
             id="tape-2"

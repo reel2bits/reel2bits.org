@@ -1,26 +1,38 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="light" fixed="top">
-      <div class="container">
-        <b-navbar-brand :to="{ name: 'home' }"
-          ><MainLogo />
-          <h3 class="text-body mx-3 d-inline">
-            <translate translate-context="Navigation/Link.Title">
-              reel2bits project
-            </translate>
-          </h3></b-navbar-brand
-        >
-
+  <div class="container-fluid bg-primary pb-2">
+    <div class="container px-2">
+      <div class="row">
+        <div class="col-md-7 mx-auto text-center">
+          <img
+            src="../assets/home/white-logo.svg"
+            alt="reel2bits"
+            class="mt-5 mb-4"
+          />
+          <h1 class="text-center text-white display-3 font-weight-bold">
+            <translate translate-context="Content/Home/Title/Tagline"
+              >Share your sounds with the fediverse</translate
+            >
+          </h1>
+          <a
+            class="btn btn-secondary btn-lg mt-4 mb-5"
+            href="#contribute"
+            role="button"
+          >
+            <translate translate-context="Content/Home/Button/Call to action"
+              >Contribute</translate
+            ></a
+          >
+        </div>
+      </div>
+      <b-navbar toggleable="lg" type="dark" class="px-0 mt-2">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item :to="{ name: 'contact' }">Contact</b-nav-item>
             <b-nav-item
-              href="https://github.com/rhaamo/reel2bits"
-              target="_blank"
+              :to="{ name: 'home', params: { locale: $language.current } }"
               ><translate translate-context="Navigation/Link.Title"
-                >Source Code</translate
+                >Home</translate
               ></b-nav-item
             >
             <b-nav-item
@@ -30,45 +42,40 @@
                 >Documentation</translate
               ></b-nav-item
             >
+            <b-nav-item href="https://demo.reel2bits.org" target="_blank"
+              ><translate translate-context="Navigation/Link.Title"
+                >Demo</translate
+              ></b-nav-item
+            >
+            <b-nav-item
+              href="https://github.com/rhaamo/reel2bits"
+              target="_blank"
+              ><translate translate-context="Navigation/Link.Title"
+                >Source Code</translate
+              ></b-nav-item
+            >
+            <b-nav-item
+              :to="{ name: 'contact', params: { locale: $language.current } }"
+              ><translate translate-context="Navigation/Link.Title"
+                >Contact</translate
+              ></b-nav-item
+            >
           </b-navbar-nav>
-
-          <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <LanguageSwitcher />
           </b-navbar-nav>
         </b-collapse>
-      </div>
-    </b-navbar>
+      </b-navbar>
+    </div>
   </div>
 </template>
 
 <script>
 import LanguageSwitcher from "./LanguageSwitcher";
-import MainLogo from "./MainLogo";
 
 export default {
   components: {
-    MainLogo,
     LanguageSwitcher
-  },
-  data() {
-    return {
-      showMenu: false
-    };
-  },
-  created() {
-    let self = this;
-    this.$router.afterEach(() => {
-      self.showMenu = false;
-    });
-  },
-  computed: {
-    labels() {
-      return {
-        ariaLabel: this.$pgettext("Navigation/Aria.Label", "Main navigation"),
-        homeTitle: this.$pgettext("Navigation/Link.Title", "Return to homepage")
-      };
-    }
   }
 };
 </script>

@@ -28,7 +28,7 @@ $black:    $shade-100;
 
 $primary:       $brand-1;
 $secondary:     $brand-2;
-$light:         $shade-0;
+$light:         $shade-25;
 $dark:          $shade-100;
 
 //Redifining Bootstrap typography
@@ -51,6 +51,11 @@ $input-btn-padding-x: 1rem;
 $input-btn-padding-y: .62rem;
 $input-btn-padding-y-sm: .11rem;
 
+//$btn-padding-y-lg:            .5em;
+//$btn-padding-x-lg:            2em;
+//$btn-font-size-lg:            2.2em;
+
+
 $input-border-color: $shade-50;
 $card-border-color:  $shade-25;
 
@@ -60,7 +65,7 @@ $b-toast-background-opacity: alpha(rgba(#fff, .95));
 
 //Customizing grid
 
-$grid-breakpoints: (
+/*$grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
@@ -73,4 +78,7 @@ $container-max-widths: (
   lg: 960px,
   xl: 1200px
 );
-$grid-gutter-width: 24px;
+$grid-gutter-width: 24px;*/
+
+$enable-responsive-font-sizes: true;
+
