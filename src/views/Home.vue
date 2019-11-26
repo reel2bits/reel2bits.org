@@ -1,67 +1,5 @@
 <template>
   <div>
-    <div class="container-fluid bg-primary pb-2">
-      <div class="container px-2">
-        <div class="row">
-          <div class="col-md-7 mx-auto text-center">
-            <img
-              src="../assets/home/white-logo.svg"
-              alt="reel2bits"
-              class="mt-5 mb-4"
-            />
-            <h1 class="text-center text-white display-3 font-weight-bold">
-              <translate translate-context="Content/Home/Title/Tagline"
-                >Share your sounds with the fediverse</translate
-              >
-            </h1>
-            <a
-              class="btn btn-secondary btn-lg mt-4 mb-5"
-              href="#contribute"
-              role="button"
-            >
-              <translate translate-context="Content/Home/Button/Call to action"
-                >Contribute</translate
-              ></a
-            >
-          </div>
-        </div>
-        <b-navbar toggleable="lg" type="dark" class="px-0 mt-2">
-          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-          <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav>
-              <b-nav-item
-                href="https://docs-develop.reel2bits.org"
-                target="_blank"
-                ><translate translate-context="Navigation/Link.Title"
-                  >Documentation</translate
-                ></b-nav-item
-              >
-              <b-nav-item href="https://demo.reel2bits.org" target="_blank"
-                ><translate translate-context="Navigation/Link.Title"
-                  >Demo</translate
-                ></b-nav-item
-              >
-              <b-nav-item
-                href="https://github.com/rhaamo/reel2bits"
-                target="_blank"
-                ><translate translate-context="Navigation/Link.Title"
-                  >Source Code</translate
-                ></b-nav-item
-              >
-              <b-nav-item href="#Contact"
-                ><translate translate-context="Navigation/Link.Title"
-                  >Contact</translate
-                ></b-nav-item
-              >
-            </b-navbar-nav>
-            <b-navbar-nav class="ml-auto">
-              <LanguageSwitcher />
-            </b-navbar-nav>
-          </b-collapse>
-        </b-navbar>
-      </div>
-    </div>
     <div class="container my-5">
       <div class="row">
         <div class="col-md-4">
@@ -77,7 +15,7 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              Reel2Bits is an open source project that lets you upload your
+              reel2Bits is an open source project that lets you upload your
               music, podcasts or other sounds, organize it into albums, and
               follow other users to see what they share.
             </translate>
@@ -96,10 +34,10 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              Each Reel2Bits instance is a part of a biger network called
+              Each reel2Bits instance is a part of a biger network called the
               Fediverse. It means that users from differnt instances can connect
               with each other, and even the users of other activitypub enabled
-              platforms, like Mastodon or Pleroma can interact with Reel2Bits
+              platforms, like Mastodon or Pleroma can interact with reel2Bits
               users.
             </translate>
           </p>
@@ -117,10 +55,10 @@
           </h2>
           <p>
             <!-- translate translate-context="Content/Home/Paragraph" -->
-            Reel2Bits is an open source project, which means anybody can use,
+            reel2Bits is an open source project, which means anybody can use,
             modify or tweak it however they want. Ready to dig through the code?
             Check out our
-            <a href="https://github.com/rhaamo/reel2bits">GitHub page</a>!
+            <a href="https://github.com/reel2bits/reel2bits">GitHub page</a>!
             <!-- /translate -->
           </p>
         </div>
@@ -188,16 +126,19 @@
           </h2>
           <p>
             <!-- translate translate-context="Content/Home/Paragraph" -->
-            Reel2Bits came a long way to the point it’s in now. We are still
-            working to make Reel2Bits nice and smooth in every aspect, and with
-            your help we can make it a lot faster. Reel2Bits is written in
-            Python, Flask and VueJS. Feel like contributing? Check out
+            reel2Bits came a long way to the point it’s in now.<br />
+            We are still working to make reel2Bits nice and smooth in every
+            aspect, and with your help we can make it a lot faster.<br />
+            reel2Bits is written in Python, Flask and VueJS.<br />
+            Feel like contributing?<br />
+            Check out the
             <a href="https://github.com/rhaamo/reel2bits">GitHub page</a> and
-            <a href="https://docs-develop.reel2bits.org/">documentation</a>.
-            Have questions? Ask them on
+            <a href="https://docs-develop.reel2bits.org/">documentation</a
+            >.<br />
+            Have questions? Ask them on the
             <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
-              >Reel2Bits matrix channel</a
-            >, or email them to
+              >reel2Bits matrix channel</a
+            >, or email them to the
             <a href="mailto:dashie@otter.sh">project maintener</a>.
             <!-- /translation -->
           </p>
@@ -213,7 +154,7 @@
           <div class="col-md-4 text-center mt-4">
             <p style="min-height: 3em">
               <translate translate-context="Content/Home/Paragraph">
-                Want to install Reel2Bits on your hosting? Check the
+                Want to install reel2Bits on your hosting? Check the
                 documentation
               </translate>
             </p>
@@ -266,7 +207,7 @@
     </div>
     <div class="container-fluid bg-dark text-center py-3 my-0">
       <p class="text-white my-0 py-0">
-        © Copyright 2019, Dashie.
+        © Copyright 2016-2019, reel2bits maintainers and contributors.
       </p>
     </div>
   </div>
@@ -289,13 +230,9 @@
 
 <script>
 import PageMixin from "../PageMixin";
-import LanguageSwitcher from "../components/LanguageSwitcher";
 
 export default {
   mixins: [PageMixin],
-  components: {
-    LanguageSwitcher
-  },
   computed: {
     labels() {
       return {
