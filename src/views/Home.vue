@@ -198,7 +198,7 @@
             <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
               >Reel2Bits matrix channel</a
             >, or email them to
-            <a href="mailto(mail.value)">project maintener</a>.
+            <a href="mailto:dashie@otter.sh">project maintener</a>.
             <!-- /translation -->
           </p>
         </div>
@@ -260,7 +260,7 @@
         <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
           >matrix channel</a
         >
-        or by <a href="mailto(mail.value)">email</a>.
+        or by <a href="mailto:dashie@otter.sh">email</a>.
         <!-- /translation -->
       </h2>
     </div>
