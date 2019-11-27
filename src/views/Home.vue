@@ -34,8 +34,8 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              Each reel2bits instance is a part of a biger network called the
-              Fediverse. It means that users from differnt instances can connect
+              Each reel2bits instance is a part of a bigger network called the
+              Fediverse. It means that users from different instances can connect
               with each other, and even the users of other activitypub enabled
               platforms, like Mastodon or Pleroma can interact with reel2bits
               users.
