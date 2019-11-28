@@ -3,7 +3,7 @@ const path = require("path");
 const PrerenderSPAPlugin = require("prerender-spa-plugin");
 
 module.exports = {
-  baseUrl: process.env.VUE_APP_ROUTER_BASE_URL || "/",
+  publicPath: process.env.VUE_APP_ROUTER_PUBLIC_PATH || "/",
   chainWebpack: config => {
     config.plugins.delete("prefetch");
   },
