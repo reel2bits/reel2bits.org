@@ -13,7 +13,7 @@
     "bootstrap-vue": "^2.1.0",
     "fork-awesome": "^1.1.7",
     "lodash": "^4.17.11",
-    "marked": "^0.7.0",
+    "marked": "^0.8.0",
     "register-service-worker": "^1.6.2",
     "typeface-montserrat": "^0.0.75",
     "typeface-noto-sans": "^0.0.72",
