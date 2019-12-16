@@ -17,7 +17,7 @@
     "register-service-worker": "^1.6.2",
     "typeface-montserrat": "^0.0.75",
     "typeface-noto-sans": "^0.0.72",
-    "vue": "^2.6.6",
+    "vue": "^2.6.11",
     "vue-gettext": "^2.1.6",
     "vue-head": "^2.1.1",
     "vue-router": "^3.0.1"
@@ -35,7 +35,7 @@
     "node-sass": "^4.13.0",
     "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.11"
   },
   "resolutions": {
     "webpack": "4.39"
