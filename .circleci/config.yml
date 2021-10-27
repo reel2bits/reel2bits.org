@@ -5,7 +5,7 @@ version: 2
 aliases:
   - &defaults
     docker:
-      - image: circleci/node:10.16.3-buster-browsers
+      - image: cimg/node:current-browsers
     working_directory: ~/projects/reel2bits.org
 
   - &attach_workspace
@@ -60,12 +60,12 @@ jobs:
   build-website:
     <<: *defaults
     docker:
-      - image: circleci/node:10.16.3-buster-browsers
+      - image: cimg/node:current-browsers
     <<: *build_and_sync_site
   test-build:
     <<: *defaults
     docker:
-      - image: circleci/node:10.16.3-buster-browsers
+      - image: cimg/node:current-browsers
     <<: *build
 
 workflows:
