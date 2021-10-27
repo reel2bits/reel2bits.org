@@ -17,8 +17,11 @@ xgettext --language=JavaScript --keyword=npgettext:1c,2,3 \
     --no-wrap
 
 # Fix broken files path/lines in pot
-# TODO: detect sed/gsed properly
-gsed -e 's|#: src/|#: front/src/|' -i $locales_dir/app.pot
+if [ "`uname -o`" == "Darwin" ]; then
+    gsed -e 's|#: src/|#: front/src/|' -i $locales_dir/app.pot
+else
+    sed -e 's|#: src/|#: front/src/|' -i $locales_dir/app.pot
+fi
 
 # Generate .po files for each available language.
 echo $locales
