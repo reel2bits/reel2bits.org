@@ -5,7 +5,6 @@
 </h1>
 
 <p align="center">
-  <a href="https://circleci.com/gh/reel2bits/reel2bits.org"><img src="https://circleci.com/gh/reel2bits/reel2bits.org.svg?style=svg" alt="Build Status"/></a>
   <a href="https://raw.githubusercontent.com/reel2bits/reel2bits.org/master/LICENSE"><img src="https://img.shields.io/badge/license-AGPL3-green.svg"/></a>
 </p>
 
