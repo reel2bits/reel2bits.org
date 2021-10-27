@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reel2bits.org 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-28 08:53+0100\n"
+"POT-Creation-Date: 2021-10-27 06:47+0200\n"
 "PO-Revision-Date: 2019-11-28 08:54+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -182,7 +182,7 @@ msgctxt "Content/Contact/Table/Header"
 msgid "Mail"
 msgstr "Mail"
 
-#: front/src/views/Contact.vue:89
+#: front/src/views/Contact.vue:89 src/views/Contact.vue:91
 msgctxt "Content/Contact/Table/Header"
 msgid "Main community and dev canal"
 msgstr "Canal principal communautaire et de développement"
@@ -211,7 +211,7 @@ msgctxt "Content/Error/Header"
 msgid "Page not found"
 msgstr "Page non trouvée"
 
-#: front/src/views/Contact.vue:116
+#: front/src/views/Contact.vue:116 src/views/Contact.vue:118
 msgctxt "Content/Contact/Table/Header"
 msgid "Project maintainer"
 msgstr "Mainteneur du projet"
@@ -234,7 +234,7 @@ msgid ""
 "          <a href=\"https://docs-develop.reel2bits.org/\">documentation</a>.<br/>\n"
 "          Have questions? Ask them on the\n"
 "          <a href=\"https://riot.im/app/#/room/#reel2bits:otter.sh\">reel2bits matrix channel</a>, or email them to the\n"
-"          <a href=\"mailto:dashie@otter.sh\">project maintener</a>."
+"          <a href=\"mailto:dashie@otter.sh\">project maintainer</a>."
 msgstr ""
 "reel2bits a fait un long voyage jusqu'au point ou il est maintenant.<br/>\n"
 "          Nous travaillons toujours à améliorer reel2bits sur tous les\n"
@@ -313,7 +313,7 @@ msgctxt "Content/Error/Paragraph"
 msgid "We're sorry, the page your requested doesn't exist."
 msgstr "Nous sommes désolés, la page demandée n’existe pas."
 
-#: front/src/PageMixin.vue:53
+#: front/src/PageMixin.vue:53 src/PageMixin.vue:56
 msgctxt "HTML/Meta/Title"
 msgid "Your free and decentralized audio and podcasts platform"
 msgstr "Votre plateforme audio et podcasts décentralisée et libre"

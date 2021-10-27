@@ -136,7 +136,7 @@
             <a href="https://riot.im/app/#/room/#reel2bits:otter.sh"
               >reel2bits matrix channel</a
             >, or email them to the
-            <a href="mailto:dashie@otter.sh">project maintener</a>.
+            <a href="mailto:dashie@otter.sh">project maintainer</a>.
           </p>
         </div>
       </div>
