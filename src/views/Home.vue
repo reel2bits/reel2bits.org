@@ -1,5 +1,20 @@
 <template>
   <div>
+    <div class="container my-5 pb-5 pt-4">
+      <div class="row">
+        <div class="col-md-7 mx-auto text-center">
+          <h1 class="text-center">
+            The project is unfortunately stopped due to lack of help from FLOSS
+            communities as explained in
+            <a href="https://github.com/reel2bits/reel2bits/issues/353"
+              >this issue</a
+            >. <br /><br />It is not recommended to run an instance for security
+            reasons.
+          </h1>
+        </div>
+      </div>
+    </div>
+
     <div class="container my-5">
       <div class="row">
         <div class="col-md-4">
@@ -15,7 +30,7 @@
           </h2>
           <p>
             <translate translate-context="Content/Home/Paragraph">
-              reel2bits is an open source project that lets you upload your
+              reel2bits was an open source project that lets you upload your
               music, podcasts or other sounds, organize it into albums, and
               follow other users to see what they share.
             </translate>
@@ -35,10 +50,10 @@
           <p>
             <translate translate-context="Content/Home/Paragraph">
               Each reel2bits instance is a part of a bigger network called the
-              Fediverse. It means that users from different instances can connect
-              with each other, and even the users of other activitypub enabled
-              platforms, like Mastodon or Pleroma can interact with reel2bits
-              users.
+              Fediverse. It means that users from different instances can
+              connect with each other, and even the users of other activitypub
+              enabled platforms, like Mastodon or Pleroma can interact with
+              reel2bits users.
             </translate>
           </p>
         </div>
